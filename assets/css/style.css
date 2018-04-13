@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("basicPortfolio/assets/images/realCf.jpg");
+}
+.content {
+    clear: both;
+    background: #ffffff;
+    border-color: #dddddd;
+    margin: 10px 30px;
+    width: 75%;
+    height: 200px;
+}
+#name {
+    background: #4aaaa5;
+    color: white; 
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+header {
+   height: 57px; 
+    border-color: #cccccc;
+    border-bottom-width: 2px;
+    border-style: solid;  
+}
+
+.list {
+    float: right;
+}
+
+li {
+    display: inline;
+}
+
+img {
+    width: 50px;
+    float: left;
+}
+h2 {
+    color: #4aaaa5;
+}
+
+footer { 
+    clear: both;
+    background: #666666;
+    text-align: center;
+}
