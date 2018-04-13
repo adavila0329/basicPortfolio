@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("basicPortfolio/assets/images/realCf.jpg");
+    background-image: url("../images/realCf.jpg");
 }
 .content {
     clear: both;
