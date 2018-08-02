@@ -8,9 +8,28 @@ body {
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
-/* general */
+html, body {
+  height: 100%;
+}
+
+/* start hover styling */
+
+#logo:hover,
+input[type=submit]:hover {
+  background: #5e7f7e;
+}
+
+nav a:hover {
+  color: #5e7f7e;
+}
+
+.social:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
 
 .container {
   width: 100%;
@@ -19,38 +38,30 @@ body {
   clear: both;
 }
 
-h1,
-h2,
-h3,
-p {
-  margin-bottom: 20px;
+h1, h2, h3, p {
+  margin-bottom: 20px; 
 }
 
-p:last-child {
+p :last-child {
   margin-bottom: 0;
 }
 
-h1,
-h2,
-h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+h1, h2, h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
   color: #4aaaa5;
 }
 
 h1 {
-  padding-bottom: 20px;
   font-size: 30px;
-  line-height: 49px;
+  line-height: 50px;
   border-bottom: 3px solid #ddd;
+  padding-bottom: 20px;
 }
 
-h2,
-h3 {
+h2, h3 {
   font-size: 22px;
 }
-
-/* header */
 
 #masthead {
   position: fixed;
@@ -107,27 +118,53 @@ footer {
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
-  height: 50px;
 }
 
-h3, h2 {
+/* h3, h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eee;
+} */
+
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.sidebar, h3, h2 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.social:last-child {
+  margin-right: 0;
 }
 
 /* main */
 
 #main-container {
   padding-top: 130px;
-  min-height: calc(100vh - 70px);
 }
 
 .main-section {
   float: left;
   width: 100%;
-  max-width: 960px;
+  max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
